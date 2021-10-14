@@ -1,0 +1,12 @@
+Vue核心为组件（Component）与虚拟节点（VNode）
+
+    组件
+        在html原生中不存在的节点，通过Vue.component等方式定义的Vue组件
+
+    VNode
+        通过createElement()生成的节点对象
+
+    createElement
+        创建虚拟节点的方法，参数可以是原生html节点，也可以是Vue注册的组件
+
+实例看App.vue
