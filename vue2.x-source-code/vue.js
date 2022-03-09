@@ -762,7 +762,7 @@
             });
         }
         for (var i = 0, l = subs.length; i < l; i++) {
-            // 组件执行更新方法
+            // watcher执行更新方法
             subs[i].update();
         }
     };
